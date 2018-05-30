@@ -43,6 +43,7 @@ In `server.js` implement the following:
 * All of the routes you defined in _Release 1_.
 * Use Postman to test your server.
 
+To start the server, type: `npm run dev`.
 Once completed with Release 2 you should have a fully functional todo list API. Woohoo!
 
 ## Release 3 
