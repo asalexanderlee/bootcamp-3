@@ -48,3 +48,7 @@ Once completed with Release 2 you should have a fully functional todo list API. 
 ## Release 3
 
 Most APIs require the developer pass an authKey in with each request. This allows the API owner to control who can and can't use the api and keep track of usage. As a stretch exercise, implement auth into your api.
+
+## Release 4 
+
+Right now, everything is one file right now, `server.js`. Seperate your models and routes out into their own files folders. Use  [Express](https://github.com/DavidsonCollege/expresso) as a model of best practice. 
