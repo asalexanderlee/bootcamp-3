@@ -11,7 +11,7 @@
 
 * What's the difference between GET, POST, PUT, DELETE? When do you use each?
 * How do CRUD and REST relate?
-* Why is a JSON object represented as a string?
+* Why is JSON represented as a string?
 * Why do you think we are using JSON instead of XML?
 
 # Challenge
@@ -20,7 +20,7 @@ Today we are going to create an API for a todo list application. That is, we are
 
 ## Release 0
 
-Yahoo Weather has a free API. Use Postman to TODO
+[Here](https://github.com/toddmotto/public-apis) is a list of a number of free APIs. Sign up for one and use Postman to query it. 
 
 ## Release 1
 
