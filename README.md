@@ -5,7 +5,7 @@
 * [Restful Design Architecture](https://stackoverflow.com/questions/671118/what-exactly-is-restful-programming)
 * [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)
 * [JSON](https://www.w3schools.com/js/js_json_intro.asp)
-* [What is an API?](TODO)
+* [What is an API?](https://medium.freecodecamp.org/what-is-an-api-in-english-please-b880a3214a82)
 
 ## Questions
 
