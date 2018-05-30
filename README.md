@@ -24,7 +24,7 @@ Today we are going to create an API for a todo list application. That is, we are
 
 ## Release 1
 
-* Using RESTful design architecture, sketch out the RESTful routes and CRUD operations needed to perform the following operations in our todo app:
+Using RESTful design architecture, sketch out the RESTful routes and CRUD operations needed to perform the following operations in our todo app:
 
 * get all todos.
 * get a single todo by an id.
@@ -43,7 +43,7 @@ In `server.js` implement the following:
 * All of the routes you defined in _Release 1_.
 * Use Postman to test your server.
 
-Once completed with Release 2 you should have a fully functional todo list API.
+Once completed with Release 2 you should have a fully functional todo list API. Woohoo!
 
 ## Release 3
 
