@@ -1,18 +1,21 @@
 const express = require("express");
 const morgan = require("morgan");
+const mongoose = require("mongoose");
 
-// Initialize express
+// initialize express
 const app = express();
-// Setup console logging
+
+// set up console logging
 app.use(morgan("tiny"));
 
-// TODO Initialize Mongoose.
-// TODO Define a schema for Todo.
+// initialize Mongoose and models
+require("./models");
+// const User = require("mongoose").model("User");
+mongoose.connect("mongodb://localhost:27017/todoApp", { useNewUrlParser: true });
 
-// TODO Write your routes here. Interact with database as necessary.
-app.get("/", (req, res) => {
-  res.send({ message: "I'm alive!" });
-});
+// initialize routes
+// NOTE: you have to do this after you initialize your models
+app.use(require("./routes"));
 
-// Listen to port 8080
+//start up server on port 8080
 app.listen("8080");
