@@ -44,6 +44,13 @@ In `server.js` implement the following:
 * Use Postman to test your server.
 
 To start the server, type: `npm run dev`.
+
+Before getting started:
+1. We are using Express for this exercise. Be sure to review the docs before getting to work.
+2. In your package.json, you have a package called `nodemon` under `"devDependencies"`. What does nodemon do? What are devDependencies?
+3. What are HTTP status codes? Which one should we use if we have any errors on the routes we defined above?
+4. What is a router, in this context?
+
 Once completed with Release 2 you should have a fully functional todo list API. Woohoo!
 
 ## Release 3 
