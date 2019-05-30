@@ -1,6 +1,7 @@
 const express = require("express");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
+const bodyParser = require("body-parser");
 
 // initialize express
 const app = express();
@@ -8,9 +9,13 @@ const app = express();
 // set up console logging
 app.use(morgan("tiny"));
 
+app.use(bodyParser.json());
+//Parse URL codes
+app.use(bodyParser.urlencoded({ extended: false }));
+
 // initialize Mongoose and models
 require("./models");
-// const User = require("mongoose").model("User");
+
 mongoose.connect("mongodb://localhost:27017/todoApp", { useNewUrlParser: true });
 
 // initialize routes
