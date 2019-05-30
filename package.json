@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/DavidsonCollege/bootcamp-3#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "nodemon": "^1.17.5"
